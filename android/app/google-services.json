@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "183009362941",
+    "firebase_url": "https://barbearia-tcc-default-rtdb.firebaseio.com",
+    "project_id": "barbearia-tcc",
+    "storage_bucket": "barbearia-tcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183009362941:android:d085738790c8234c878f94",
+        "android_client_info": {
+          "package_name": "com.example.barbearia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7InH9JfB-cy-dSPpXea_wMLKObyT0IFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183009362941:android:4dc8162affcf9f30878f94",
+        "android_client_info": {
+          "package_name": "com.example.barbershop_schedule"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7InH9JfB-cy-dSPpXea_wMLKObyT0IFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
