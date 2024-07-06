@@ -85,6 +85,7 @@ class _RegisterUserPageState extends State<RegisterUserPage> {
           child: Form(
             key: _formKey,
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const SizedBox(height: 20),
                 TextFormField(
@@ -162,7 +163,14 @@ class _RegisterUserPageState extends State<RegisterUserPage> {
                     label: Text('Senha'),
                   ),
                 ),
-                const SizedBox(height: 24),
+                const SizedBox(height: 4),
+                Text(
+                  'Senha precisa de no mínimo 6 caracteres',
+                  style: Theme.of(context).textTheme.displaySmall!.copyWith(
+                        color: Colors.grey,
+                      ),
+                ),
+                const SizedBox(height: 20),
                 TextFormField(
                   validator: Validatorless.multiple([
                     Validatorless.required('confirma Senha Obrigatória'),

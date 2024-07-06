@@ -1,5 +1,6 @@
 import 'package:barbershop_schedule/src/core/constants/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 sealed class ThemeScheduleApp {
   static const _defaultBorderOutline = OutlineInputBorder(
@@ -19,7 +20,6 @@ sealed class ThemeScheduleApp {
     colorScheme: ColorScheme.fromSeed(seedColor: ColorsConstants.primary),
     datePickerTheme: const DatePickerThemeData(
       shape: _defaultBorderOutline,
-     
     ),
 
     //! app bar finalizada o tema
@@ -71,6 +71,10 @@ sealed class ThemeScheduleApp {
 
     fontFamily: FontConstants.fontfamily,
     textTheme: const TextTheme(
+      displaySmall: TextStyle(
+        fontSize: 12,
+        fontWeight: FontWeight.w400,
+      ),
       displayMedium: TextStyle(
         fontSize: 22,
         fontWeight: FontWeight.w500,
