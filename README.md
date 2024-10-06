@@ -1,16 +1,57 @@
-# barbershop_schedule
+# TCC Agenda Barbearia
 
-A new Flutter project.
+Este é um projeto Flutter desenvolvido como Trabalho de Conclusão de Curso (TCC) para a criação de uma agenda para barbearias.
 
-## Getting Started
+### Demonstração
+<p align="center">
+  <img width="460" height="300" src="/assets/to_readme/projeto-tcc.gif">
+</p>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Funcionalidades
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Cadastro de clientes
+- Agendamento de horários
+- Histórico de atendimentos
+
+## Tecnologias Utilizadas
+
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+- [Firebase Auth](https://firebase.google.com/products/auth)
+- [Firebase Realtime Database](https://firebase.google.com/products/realtime-database)
+
+## Instalação
+
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/seu-usuario/tcc-agenda-barbearia.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```sh
+    cd tcc-agenda-barbearia
+    ```
+3. Instale as dependências:
+    ```sh
+    flutter pub get
+    ```
+
+## Uso
+
+1. Execute o aplicativo:
+    ```sh
+    flutter run
+    ```
+
+## Contribuição
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Faça o push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
+
+## Contato
+Pedro - pedro.siqueira1999@hotmail.com
+
